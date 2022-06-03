@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampaignTrackerLibrary", "CampaignTrackerLibrary\CampaignTrackerLibrary.csproj", "{F756BA1C-FE19-4CD1-ADD9-AA0D6D5892BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F756BA1C-FE19-4CD1-ADD9-AA0D6D5892BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F756BA1C-FE19-4CD1-ADD9-AA0D6D5892BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F756BA1C-FE19-4CD1-ADD9-AA0D6D5892BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F756BA1C-FE19-4CD1-ADD9-AA0D6D5892BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9956A2B-370B-408A-882E-F9D736CBD9AA}
+	EndGlobalSection
+EndGlobal
