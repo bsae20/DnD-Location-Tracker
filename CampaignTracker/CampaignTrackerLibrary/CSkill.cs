@@ -30,7 +30,7 @@ enum Skills
 }
 namespace CampaignTrackerLibrary
 {
-    class CSkill
+    public class CSkill
     {
         public string SkillName { get; set; }
         public byte Modifier { get; set; }
