@@ -8,7 +8,8 @@ namespace CampaignTrackerLibrary
 {
     public class CParty
     {
-        public List<Character> PartyMembers { get; set; } = new List<Character>();
         public string PartyName { get; set; }
+        public Dictionary<Guid, string> PartyMembers { get; set; } = new Dictionary<Guid, string>();
+        public Dictionary<Guid, string> PartyMemberCurrentHitPoints { get; set; } = new Dictionary<Guid, string>();
     }
 }

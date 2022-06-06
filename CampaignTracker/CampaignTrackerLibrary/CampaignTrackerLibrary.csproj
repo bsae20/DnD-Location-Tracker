@@ -41,7 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAct.cs" />
+    <Compile Include="CArmor.cs" />
     <Compile Include="CCharacter.cs" />
+    <Compile Include="CClass.cs" />
+    <Compile Include="CDiceRoller.cs" />
+    <Compile Include="CEncounter.cs" />
     <Compile Include="CEnemyCharacter.cs" />
     <Compile Include="CNonPlayerCharacter.cs" />
     <Compile Include="CommonDetails.cs" />
@@ -49,6 +54,7 @@
     <Compile Include="CPlayerCharacter.cs" />
     <Compile Include="CRaceTraits.cs" />
     <Compile Include="CSkill.cs" />
+    <Compile Include="CWeapon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

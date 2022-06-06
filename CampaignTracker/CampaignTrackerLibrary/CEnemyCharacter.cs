@@ -29,15 +29,11 @@ enum AdditionalMonsterMovementModes
     Fly,
     Swim
 }
+
 namespace CampaignTrackerLibrary
 {
-    class CEnemyCharacter : CCharacter
+    public class CEnemyCharacter : CCharacter
     {
-        public string Type { get; set; }
-        public string Size { get; set; }
-        public string AdditionalMovementMode { get; set; }
-        public string ChallengeRating { get; set; }
-        public sbyte ExperiencePoints { get; set; }
-        public List<EnemyAction> Actions {get;set;} = new List<EnemyAction>();
+        public string NumberOfTheseEnemies { get; set; }
     }
 }
