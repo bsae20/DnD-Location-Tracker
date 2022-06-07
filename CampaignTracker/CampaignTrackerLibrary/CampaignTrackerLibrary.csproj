@@ -41,21 +41,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CAct.cs" />
-    <Compile Include="CArmor.cs" />
-    <Compile Include="CCharacter.cs" />
-    <Compile Include="CClass.cs" />
-    <Compile Include="CDiceRoller.cs" />
-    <Compile Include="CEncounter.cs" />
-    <Compile Include="CEnemyCharacter.cs" />
-    <Compile Include="CNonPlayerCharacter.cs" />
-    <Compile Include="CommonDetails.cs" />
-    <Compile Include="CParty.cs" />
-    <Compile Include="CPlayerCharacter.cs" />
-    <Compile Include="CRaceTraits.cs" />
-    <Compile Include="CSkill.cs" />
-    <Compile Include="CWeapon.cs" />
+    <Compile Include="FutureWork\CAct.cs" />
+    <Compile Include="FutureWork\CArmor.cs" />
+    <Compile Include="FutureWork\CCampaign.cs" />
+    <Compile Include="FutureWork\CCharacter.cs" />
+    <Compile Include="FutureWork\CClass.cs" />
+    <Compile Include="FutureWork\CDiceRoller.cs" />
+    <Compile Include="FutureWork\CEncounter.cs" />
+    <Compile Include="FutureWork\CEnemyCharacter.cs" />
+    <Compile Include="CLocationDetail.cs" />
+    <Compile Include="CLocationTracker.cs" />
+    <Compile Include="FutureWork\CNonPlayerCharacter.cs" />
+    <Compile Include="FutureWork\CommonDetails.cs" />
+    <Compile Include="FutureWork\CParty.cs" />
+    <Compile Include="FutureWork\CPlayerCharacter.cs" />
+    <Compile Include="FutureWork\CRaceTraits.cs" />
+    <Compile Include="FutureWork\CSettlement.cs" />
+    <Compile Include="FutureWork\CSkill.cs" />
+    <Compile Include="FutureWork\CWeapon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
